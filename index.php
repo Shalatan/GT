@@ -63,7 +63,7 @@
 			      		<li><a href="#mu-hero">Home</a></li>
 				        <li><a href="#mu-about">About Us</a></li>
 				        <li><a href="#mu-schedule">Schedule</a></li>
-			            <li><a href="#mu-speakers">Speakers</a></li>
+			         <!--   <li><a href="#mu-speakers">Speakers</a></li> -->
 			            <li><a href="#mu-pricing">Price</a></li>
 			            <li><a href="#mu-register">Register</a></li>
 			            <li><a href="#mu-sponsors">Sponsors</a></li>
@@ -123,7 +123,7 @@
 
               <br>
                <br>
-             
+
 						</div>
 					</div>
 					<!-- End hero featured area -->
@@ -152,11 +152,11 @@
 								<div class="col-md-6">
 									<div class="mu-about-right">
 										<h2>About </h2>
-										<p>Gaming Tremor is an esports and competitive video gaming platform that facilitates online and live tournaments, leagues and ladders, and acts as a social gaming community for competitive gamers around the world</p>
+										<p>Just like every sport needs an arena, a playground . Esports needs a place where both regular gamers and aspiring esports athletes alike can come together, practice, compete and build their teams We built it to help gamers like you practice, compete and excel in your favorite esports. We offer players of all levels the opportunity to compete in their favorite game, win prizes, and be part of the esports community</p>
 
 										<p></p>
 
-										<p></p>
+										<p>Our mission is to make esports as accessible for non-professional gamers as regular sports are for regular people. We believe that's crucial for esports to become the world's biggest sport. Gamers that invest hundreds of hours into their favorite competitive games need to know that their efforts will be rewarded in the future</p>
 									</div>
 								</div>
 							</div>
@@ -211,55 +211,56 @@
 							<div class="mu-schedule-content-area">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
-								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 19 Feb</a></li>
-								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>
-								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li>
+								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">Next Match</a></li>
+						<!--		    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>
+								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li> -->
 
 								</ul>
 
 								<!-- Tab panes -->
 								<div class="tab-content mu-schedule-content">
 								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
+                        <a href=#>Register Here</a>
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+                            <h3>Registeration Ends</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
 								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
+								    				<h3>Room ID And Password would be given</h3>
+								    				<span>Through Phone Message</span>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
 								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
+								    				<h3>Match Starts</h3>
+								    				<span>*DON'T BE LATE*</span>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
 								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
+								    				<h3>Results would be uploaded</h3>
+								    				<span>Prize money will be given</span>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<h3>Ends</h3>
 								    			</div>
 								    		</li>
 								    	</ul>
 								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
+							<!--	    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
@@ -338,7 +339,7 @@
 								    			</div>
 								    		</li>
 								    	</ul>
-								    </div>
+								    </div> -->
 
 								</div>
 
@@ -351,7 +352,7 @@
 		</section>
 		<!-- End Schedule -->
 
-		<!-- Start Speakers -->
+	<!-- Start Speakers
 		<section id="mu-speakers">
 			<div class="container">
 				<div class="row">
@@ -363,12 +364,12 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
 							</div>
 
-							<!-- Start Speakers Content -->
+							<!-- Start Speakers Content
 							<div class="mu-speakers-content">
 
 								<div class="mu-speakers-slider">
 
-									<!-- Start single speaker -->
+									<!-- Start single speaker
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-1.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -381,9 +382,9 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+									<!-- End single speaker
 
-									<!-- Start single speaker -->
+									<!-- Start single speaker
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-2.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -396,10 +397,10 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+									<!-- End single speaker
 
 
-									<!-- Start single speaker -->
+									<!-- Start single speaker
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-3.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -412,10 +413,10 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+									<!-- End single speaker
 
 
-									<!-- Start single speaker -->
+									<!-- Start single speaker
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-4.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -428,9 +429,9 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+									<!-- End single speaker
 
-									<!-- Start single speaker -->
+									<!-- Start single speaker
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-1.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -443,9 +444,9 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+									<!-- End single speaker
 
-									<!-- Start single speaker -->
+									<!-- Start single speaker
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-2.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -458,10 +459,10 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+									<!-- End single speaker
 
 
-									<!-- Start single speaker -->
+									<!-- Start single speaker
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-3.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -474,10 +475,10 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+									<!-- End single speaker
 
 
-									<!-- Start single speaker -->
+									<!-- Start single speaker
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-4.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -490,10 +491,10 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+									<!-- End single speaker
 								</div>
 							</div>
-							<!-- End Speakers Content -->
+							<!-- End Speakers Content
 
 						</div>
 					</div>
