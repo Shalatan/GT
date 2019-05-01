@@ -216,11 +216,14 @@
 								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li> -->
 
 								</ul>
+                <br> </br>
+                <div style="text-align:center">
+                <input type="submit" href="#">
+                </div>
 
 								<!-- Tab panes -->
 								<div class="tab-content mu-schedule-content">
 								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
-                        <a href=#>Register Here</a>
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
