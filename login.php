@@ -63,11 +63,18 @@
 			      		<li><a href="#mu-hero">Home</a></li>
 				        <li><a href="#mu-about">About Us</a></li>
 				        <li><a href="#mu-schedule">Schedule</a></li>
-			            <li><a href="#mu-speakers">Speakers</a></li>
+			    <!--        <li><a href="#mu-speakers">Speakers</a></li> -->
 			            <li><a href="#mu-pricing">Price</a></li>
-			            <li><a href="#mu-register">Register</a></li>
+			    <!--       <li><a href="#mu-register">Register</a></li> -->
 			            <li><a href="#mu-sponsors">Sponsors</a></li>
 			            <li><a href="#mu-contact">Contact</a></li>
+
+                  <li wg-nav-item="" show-guest="false" title="Rewards Tokens" class="">
+                  <a href="https://worldgaming.com/help#rewards" translate=""><div>
+                  <img src="./T_files/WG-coin-icon.svg">
+                  <span ng-controller="UserDetailsController as ctrl">0</span>
+                  </div></a>
+                  </li>
 
                   <li wg-nav-item="" show-guest="false" title="Profile" class="profile-dropdown hidden-xs hidden-sm dropdown" uib-dropdown="">
                                     <a href="https://worldgaming.com/#" uib-dropdown-toggle="" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
@@ -152,11 +159,11 @@
 								<div class="col-md-6">
 									<div class="mu-about-right">
 										<h2>About </h2>
-										<p>Gaming Tremor is an esports and competitive video gaming platform that facilitates online and live tournaments, leagues and ladders, and acts as a social gaming community for competitive gamers around the world</p>
+										<p>Just like every sport needs an arena, a playground . Esports needs a place where both regular gamers and aspiring esports athletes alike can come together, practice, compete and build their teams We built it to help gamers like you practice, compete and excel in your favorite esports. We offer players of all levels the opportunity to compete in their favorite game, win prizes, and be part of the esports community</p>
 
 										<p></p>
 
-										<p></p>
+										<p>Our mission is to make esports as accessible for non-professional gamers as regular sports are for regular people. We believe that's crucial for esports to become the world's biggest sport. Gamers that invest hundreds of hours into their favorite competitive games need to know that their efforts will be rewarded in the future</p>
 									</div>
 								</div>
 							</div>
@@ -196,7 +203,7 @@
 		</section>
 		<!-- End Video -->
 
-		<!-- Start Schedule  -->
+    <!-- Start Schedule  -->
 		<section id="mu-schedule">
 			<div class="container">
 				<div class="row">
@@ -211,55 +218,60 @@
 							<div class="mu-schedule-content-area">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
-								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 19 Feb</a></li>
-								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>
-								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li>
+								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">Next Match</a></li>
+						<!--		    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>
+								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li> -->
 
 								</ul>
+                <br> </br>
+                <div style="text-align:center">
+                <input type="submit" href="#">
+                </div>
 
 								<!-- Tab panes -->
 								<div class="tab-content mu-schedule-content">
 								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
+
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+                            <h3>Registeration Ends</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
 								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
+								    				<h3>Room ID And Password would be given</h3>
+								    				<span>Through Phone Message</span>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
 								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
+								    				<h3>Match Starts</h3>
+								    				<span>*DON'T BE LATE*</span>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
 								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
+								    				<h3>Results would be uploaded</h3>
+								    				<span>Prize money will be given</span>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<h3>Ends</h3>
 								    			</div>
 								    		</li>
 								    	</ul>
 								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
+							<!--	    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
@@ -338,7 +350,7 @@
 								    			</div>
 								    		</li>
 								    	</ul>
-								    </div>
+								    </div> -->
 
 								</div>
 
@@ -351,156 +363,158 @@
 		</section>
 		<!-- End Schedule -->
 
-		<!-- Start Speakers -->
-		<section id="mu-speakers">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-speakers-area">
+    <!-- Start Speakers
+  		<section id="mu-speakers">
+  			<div class="container">
+  				<div class="row">
+  					<div class="col-md-12">
+  						<div class="mu-speakers-area">
 
-							<div class="mu-title-area">
-								<h2 class="mu-title">Our Speakers</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-							</div>
+  							<div class="mu-title-area">
+  								<h2 class="mu-title">Our Speakers</h2>
+  								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+  							</div>
 
-							<!-- Start Speakers Content -->
-							<div class="mu-speakers-content">
+  							<!-- Start Speakers Content
+  							<div class="mu-speakers-content">
 
-								<div class="mu-speakers-slider">
+  								<div class="mu-speakers-slider">
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-1.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Karl Groves</h3>
-											<p>Digital Artist</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
+  									<!-- Start single speaker
+  									<div class="mu-single-speakers">
+  										<img src="assets/images/speaker-1.jpg" alt="speaker img">
+  										<div class="mu-single-speakers-info">
+  											<h3>Karl Groves</h3>
+  											<p>Digital Artist</p>
+  											<ul class="mu-single-speakers-social">
+  												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  											</ul>
+  										</div>
+  									</div>
+  									<!-- End single speaker
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-2.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Sarah Dransner</h3>
-											<p>Business Consultant</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Ned Stark</h3>
-											<p>UI/UX Specialist</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
+  									<!-- Start single speaker
+  									<div class="mu-single-speakers">
+  										<img src="assets/images/speaker-2.jpg" alt="speaker img">
+  										<div class="mu-single-speakers-info">
+  											<h3>Sarah Dransner</h3>
+  											<p>Business Consultant</p>
+  											<ul class="mu-single-speakers-social">
+  												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  											</ul>
+  										</div>
+  									</div>
+  									<!-- End single speaker
 
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-4.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Michaela Lehr </h3>
-											<p>Digital Marketer</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-1.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Karl Groves</h3>
-											<p>Digital Artist</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-2.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Sarah Dransner</h3>
-											<p>Business Consultant</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
+  									<!-- Start single speaker
+  									<div class="mu-single-speakers">
+  										<img src="assets/images/speaker-3.jpg" alt="speaker img">
+  										<div class="mu-single-speakers-info">
+  											<h3>Ned Stark</h3>
+  											<p>UI/UX Specialist</p>
+  											<ul class="mu-single-speakers-social">
+  												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  											</ul>
+  										</div>
+  									</div>
+  									<!-- End single speaker
 
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Ned Stark</h3>
-											<p>UI/UX Specialist</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
+  									<!-- Start single speaker
+  									<div class="mu-single-speakers">
+  										<img src="assets/images/speaker-4.jpg" alt="speaker img">
+  										<div class="mu-single-speakers-info">
+  											<h3>Michaela Lehr </h3>
+  											<p>Digital Marketer</p>
+  											<ul class="mu-single-speakers-social">
+  												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  											</ul>
+  										</div>
+  									</div>
+  									<!-- End single speaker
+
+  									<!-- Start single speaker
+  									<div class="mu-single-speakers">
+  										<img src="assets/images/speaker-1.jpg" alt="speaker img">
+  										<div class="mu-single-speakers-info">
+  											<h3>Karl Groves</h3>
+  											<p>Digital Artist</p>
+  											<ul class="mu-single-speakers-social">
+  												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  											</ul>
+  										</div>
+  									</div>
+  									<!-- End single speaker
+
+  									<!-- Start single speaker
+  									<div class="mu-single-speakers">
+  										<img src="assets/images/speaker-2.jpg" alt="speaker img">
+  										<div class="mu-single-speakers-info">
+  											<h3>Sarah Dransner</h3>
+  											<p>Business Consultant</p>
+  											<ul class="mu-single-speakers-social">
+  												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  											</ul>
+  										</div>
+  									</div>
+  									<!-- End single speaker
 
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-4.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Michaela Lehr </h3>
-											<p>Digital Marketer</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-								</div>
-							</div>
-							<!-- End Speakers Content -->
+  									<!-- Start single speaker
+  									<div class="mu-single-speakers">
+  										<img src="assets/images/speaker-3.jpg" alt="speaker img">
+  										<div class="mu-single-speakers-info">
+  											<h3>Ned Stark</h3>
+  											<p>UI/UX Specialist</p>
+  											<ul class="mu-single-speakers-social">
+  												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  											</ul>
+  										</div>
+  									</div>
+  									<!-- End single speaker
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Speakers -->
+
+  									<!-- Start single speaker
+  									<div class="mu-single-speakers">
+  										<img src="assets/images/speaker-4.jpg" alt="speaker img">
+  										<div class="mu-single-speakers-info">
+  											<h3>Michaela Lehr </h3>
+  											<p>Digital Marketer</p>
+  											<ul class="mu-single-speakers-social">
+  												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  											</ul>
+  										</div>
+  									</div>
+  									<!-- End single speaker
+  								</div>
+  							</div>
+  							<!-- End Speakers Content
+
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</section>
+  		<!-- End Speakers -->
+
+
 
 		<!-- Start Pricing  -->
 		<section id="mu-pricing">
